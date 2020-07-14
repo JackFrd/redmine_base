@@ -1,0 +1,30 @@
+current directory: /home/bitrock/ruby25stack/apps/redmine/htdocs/vendor/bundle/ruby/2.5.0/gems/nio4r-2.5.2/ext/nio4r
+/home/bitrock/ruby25stack/ruby/bin/ruby -r ./siteconf20200407-4359-16lg7bj.rb extconf.rb
+checking for unistd.h... yes
+checking for linux/aio_abi.h... yes
+checking for sys/select.h... yes
+checking for port_event_t in poll.h... no
+checking for sys/epoll.h... yes
+checking for sys/event.h... no
+checking for port_event_t in port.h... no
+checking for sys/resource.h... yes
+creating Makefile
+
+current directory: /home/bitrock/ruby25stack/apps/redmine/htdocs/vendor/bundle/ruby/2.5.0/gems/nio4r-2.5.2/ext/nio4r
+make "DESTDIR=" clean
+
+current directory: /home/bitrock/ruby25stack/apps/redmine/htdocs/vendor/bundle/ruby/2.5.0/gems/nio4r-2.5.2/ext/nio4r
+make "DESTDIR="
+compiling bytebuffer.c
+compiling monitor.c
+compiling nio4r_ext.c
+In file included from nio4r_ext.c:7:0:
+../libev/ev.c:1867:31: warning: ‘ev_default_loop_ptr’ initialized and declared ‘extern’ [enabled by default]
+   EV_API_DECL struct ev_loop *ev_default_loop_ptr = 0; /* needs to be initialised to make it a definition despite extern */
+                               ^
+compiling selector.c
+linking shared-object nio4r_ext.so
+
+current directory: /home/bitrock/ruby25stack/apps/redmine/htdocs/vendor/bundle/ruby/2.5.0/gems/nio4r-2.5.2/ext/nio4r
+make "DESTDIR=" install
+install -c -m 0755 nio4r_ext.so ./.gem.20200407-4359-2x6lhj

@@ -1,0 +1,6 @@
+--with-xml2-dir=/home/bitrock/ruby25stack/common
+--with-xslt-dir=/home/bitrock/ruby25stack/common
+--with-xml2-include=/home/bitrock/ruby25stack/common/include/libxml2
+--with-xslt-include=/home/bitrock/ruby25stack/common/include
+--with-xml2-lib=/home/bitrock/ruby25stack/common/lib
+--with-xslt-lib=/home/bitrock/ruby25stack/common/lib

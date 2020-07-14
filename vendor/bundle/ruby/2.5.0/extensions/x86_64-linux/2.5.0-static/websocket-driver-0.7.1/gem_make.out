@@ -1,0 +1,15 @@
+current directory: /home/bitrock/ruby25stack/apps/redmine/htdocs/vendor/bundle/ruby/2.5.0/gems/websocket-driver-0.7.1/ext/websocket-driver
+/home/bitrock/ruby25stack/ruby/bin/ruby -r ./siteconf20200407-4359-ctz17c.rb extconf.rb
+creating Makefile
+
+current directory: /home/bitrock/ruby25stack/apps/redmine/htdocs/vendor/bundle/ruby/2.5.0/gems/websocket-driver-0.7.1/ext/websocket-driver
+make "DESTDIR=" clean
+
+current directory: /home/bitrock/ruby25stack/apps/redmine/htdocs/vendor/bundle/ruby/2.5.0/gems/websocket-driver-0.7.1/ext/websocket-driver
+make "DESTDIR="
+compiling websocket_mask.c
+linking shared-object websocket_mask.so
+
+current directory: /home/bitrock/ruby25stack/apps/redmine/htdocs/vendor/bundle/ruby/2.5.0/gems/websocket-driver-0.7.1/ext/websocket-driver
+make "DESTDIR=" install
+install -c -m 0755 websocket_mask.so ./.gem.20200407-4359-1ie0enu
